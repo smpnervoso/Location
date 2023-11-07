@@ -1,0 +1,335 @@
+body {
+    background-color: white;
+    width: auto;
+    height: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.topo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+}
+
+#logo {
+    margin-left: 26px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+#frame {
+    margin-right: 26px;
+    margin-top: 19px;
+    margin-bottom: 39px;
+} 
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 310px;
+    background: linear-gradient(165.78deg, rgba(255, 252, 245, 0) 0%, rgba(255, 250, 240, 0.869792) 82.46%, #FFF4DB 98.95%);
+
+}
+#about {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+#contact {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-top: 4px;
+}
+
+.bloco1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+    height: 120px;
+}
+
+#igreja {
+    margin-top: 62px;
+    margin-bottom: 30px;
+    margin-left: 24px;
+    margin-right: 8px;
+}
+#crunch {
+    margin-top: 60px;
+    margin-bottom: 28px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 48px;
+}
+
+#location {
+    margin-left: 24px;
+    margin-right: 12px;
+    margin-top: 16px;    
+}
+#local {
+    flex-grow: 1;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-left: 6px;
+}
+#arrow {
+    margin-top: 16px;
+    margin-right: 24px;
+    margin-bottom: 16px;
+}
+.time {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    width: auto;
+    height: 56px;
+}
+#clock {
+    margin-left: 20px;
+    margin-right: 6px;
+    margin-bottom: 32px;
+    margin-top: 16px;
+}
+#time {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 6px;
+}
+.upcoming {
+    width: auto;
+    height: 40px;
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 16px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#atualiza {
+    color: rgba(247, 147, 30, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-left: 48px;
+    margin-top: 24px;
+    text-align: start;
+    background: rgba(255, 249, 235, 1);
+    padding: 8px, 24px, 8px, 24px;
+}
+#arroworange {
+    margin-right: 48px;
+    margin-top: 24px;
+} 
+.office {
+    display: flex;
+    flex-direction: flow;
+    margin-bottom: 9px;
+    width: auto;
+    height: 60px;
+}
+#office {
+    margin-top: 2px;
+    margin-left: 24px;
+    margin-right: 4px;
+    margin-bottom: 21px;
+}
+#textoffice {
+    margin-left: 4px;
+    margin-bottom: 28px;
+    margin-top: 2px;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.officelocal {
+    
+    display: flex;
+    flex-direction: flow;
+    width: auto;
+    height: 48px;
+}
+#officepoint {
+    margin-left: 24px;
+    margin-top: 10px;
+}
+#officetext {
+    margin-left: 12px;
+    margin-bottom: 16px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+.officehour {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: flow;
+}
+#officeclock {
+    margin-left: 24px;
+    margin-right: 12px;
+    margin-top: 4px;
+    margin-bottom: 24px;
+}
+#officehourtext {
+    margin-top: 5px;
+}
+.officecontact {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 40px;
+}
+#officephone {
+    margin-left: 24px;
+    margin-right: 12px;
+    margin-bottom: 16px;
+}
+#officephonetext {
+    margin-bottom: 16px;
+    margin-top: 3px;
+}
+.officeemail {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 12px;
+}
+#officesms {
+    margin-left: 24px;
+    margin-right: 12px;
+}
+#officesmstext {
+    margin-top: 3px;
+}
+.logofinal {
+    display: flex;
+    width: auto;
+    height: auto;
+}
+#finallogo {
+    margin-top: 200px;
+    margin-left: 28px;
+    margin-bottom: 32px;
+}
+.final {
+    display: flex;
+    flex-direction: row;
+}
+#finalicon {
+    margin-left: 28px;
+    margin-right: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#finaltext {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.aboutfinal {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+#abouttitlte {
+    margin-left: 28px;
+    margin-bottom: 12px;
+    margin-top: 32px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+#abouttext {
+    margin-left: 28px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+#socialttitle {
+    margin-left: 28px;
+    margin-bottom: 12px;
+    margin-top: 32px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+#socialtext {
+    margin-left: 28px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.finallocation {
+    display: flex;
+    width: auto;
+    height: auto;
+}
+#locationtitle {
+    margin-left: 28px;
+    margin-top: 32px;
+    margin-right: auto;
+    margin-bottom: 12px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+#finallocationicon {
+    margin-left: 28px;
+    margin-top: 8px;
+    margin-right: 12px;
+    margin-bottom: 34.25px;
+}
+#finallocationtext {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.vazio {
+    width: auto;
+    height: 60px;
+}
+.root {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#roottext {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
